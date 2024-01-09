@@ -20,6 +20,10 @@ Holders of CLP tokens gain a unique form of ownership that extends beyond tradit
 ## Summary
 Overall, CLP goes beyond traditional ownership structures, creating a symbiotic relationship between the record label and its supporters. It represents an innovative approach to community engagement, where every token holder becomes an integral part of the success story, sharing in the rewards and actively contributing to the flourishing future of Crypto Lover Productions.
 
+## Trade CLP
+
+[![Trade on Pancakeswap](https://img.shields.io/badge/Trade%20on-Pancakeswap-blue?style=for-the-badge&logo=pancakeswap)](https://pancakeswap.finance/swap?inputCurrency=0x55d398326f99059fF775485246999027B3197955&outputCurrency=0x3039e86d39A5BCF38E96D78fF93FD0aBe753212c&chainId=56&chain=bsc)
+
 ## Links
 
 - **Discord Chat:** [![Discord](https://img.shields.io/discord/1157606000946327622?label=Join%20Us&logo=discord&logoColor=white)](https://discord.gg/RH3qTcPTd2)
