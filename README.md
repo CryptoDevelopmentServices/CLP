@@ -1,6 +1,6 @@
 # Crypto Lover Productions (CLP) Token
 
-![Crypto Lover Productions Logo](https://i.imgur.com/kmfPNvob.png)
+![Crypto Lover Productions Logo](https://github.com/CryptoDevelopmentServices/CLP/blob/main/CLP.png)
 
 ## Overview
 
