@@ -1,6 +1,10 @@
 # Crypto Lover Productions (CLP) Token
 
-![Crypto Lover Productions Logo](https://github.com/CryptoDevelopmentServices/CLP/blob/main/CLP.png)
+![Image](https://github.com/CryptoDevelopmentServices/CLP/blob/main/CLP.png)
+
+<!-- Change the size of the image -->
+<img src="https://github.com/CryptoDevelopmentServices/CLP/blob/main/CLP.png" alt="Image" width="100" height="100">
+<!-- ![Crypto Lover Productions Logo](https://github.com/CryptoDevelopmentServices/CLP/blob/main/CLP.png) -->
 
 ## Overview
 
