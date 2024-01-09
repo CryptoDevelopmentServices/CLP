@@ -8,11 +8,11 @@
 
   ## Overview
 
-  ![Token Name](https://i.imgur.com/E6hSL6W.png) **Token Name:** Crypto Lover Productions
-  ![Token Symbol](https://i.imgur.com/E6hSL6W.png) **Token Symbol:** CLP
-  ![Token Decimals](https://i.imgur.com/E6hSL6W.png) **Token Decimals:** 8
-  ![Total Supply](https://i.imgur.com/E6hSL6W.png) **Total Supply:** 1,000,000 CLP
-  ![Token Address](https://i.imgur.com/E6hSL6W.png) **Token Address:** [0x3039e86d39A5BCF38E96D78fF93FD0aBe753212c](https://bscscan.com/token/0x3039e86d39A5BCF38E96D78fF93FD0aBe753212c)
+  - ![Token Name](https://i.imgur.com/E6hSL6W.png) **Token Name:** Crypto Lover Productions
+  - ![Token Symbol](https://i.imgur.com/E6hSL6W.png) **Token Symbol:** CLP
+  - ![Token Decimals](https://i.imgur.com/E6hSL6W.png) **Token Decimals:** 8
+  - ![Total Supply](https://i.imgur.com/E6hSL6W.png) **Total Supply:** 1,000,000 CLP
+  - ![Token Address](https://i.imgur.com/E6hSL6W.png) **Token Address:** [0x3039e86d39A5BCF38E96D78fF93FD0aBe753212c](https://bscscan.com/token/0x3039e86d39A5BCF38E96D78fF93FD0aBe753212c)
 
   ## Description
 
