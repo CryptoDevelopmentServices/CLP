@@ -1,9 +1,24 @@
 body {
-    /*background-color: #f0f0f0;/* /* Light mode background color */
-    color: #333; /* Light mode text color */
-    padding: 20px; /* Add padding to the body */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
 }
 
+.content {
+    flex: 1; /* Grow and fill the remaining space */
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline {
+    flex: 1; /* Grow and fill the remaining space */
+}
+
+.footer-container {
+    margin-top: auto; /* Push the footer to the bottom */
+}
 
 h1 {
     text-align: center; /* Center align h1 */

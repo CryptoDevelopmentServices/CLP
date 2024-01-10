@@ -5,3 +5,10 @@
         color: #fff; /* Dark mode text color */
     }
 }
+
+/* dark-mode.css */
+
+body.dark-mode {
+    background-color: #111; /* Dark mode background color for the body */
+    color: #fff; /* Dark mode text color for the body */
+}
