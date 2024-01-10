@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+window.onload = function() {
     const themeToggle = document.getElementById('theme-toggle');
     const themeStyle = document.getElementById('theme-style');
 
@@ -18,4 +18,4 @@ document.addEventListener('DOMContentLoaded', function() {
             localStorage.setItem('theme', 'light');
         }
     });
-});
+};
