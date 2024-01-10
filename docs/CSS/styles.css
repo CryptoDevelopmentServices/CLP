@@ -52,6 +52,7 @@ p {
     text-align: center;
 }
 
+/* toggle settings start*/
 .toggle-container {
     text-align: center;
     margin-top: 20px;
@@ -64,6 +65,23 @@ p {
     cursor: pointer;
     margin: 0 5px;
     user-select: none; /* Prevent text selection */
+    display: flex; /* Align the sun and moon icons horizontally */
+    align-items: center; /* Center the sun and moon icons vertically */
+}
+
+.toggle-container label::before,
+.toggle-container label::after {
+    font-size: 1.2em; /* Adjust the font size for the sun and moon icons */
+}
+
+.toggle-container label::before {
+    content: '🌞'; /* Sun icon */
+    margin-right: 5px;
+}
+
+.toggle-container label::after {
+    content: '🌙'; /* Moon icon */
+    margin-left: 5px;
 }
 
 #theme-toggle {
@@ -119,4 +137,4 @@ p {
     transform: translateX(26px);
 }
 
-
+/* toggle settings end */
