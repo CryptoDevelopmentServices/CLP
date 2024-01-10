@@ -1,40 +1,74 @@
 /* navbar.css */
 nav {
-    margin: 0; /* Remove default body margin */
-    font-family: 'Arial', sans-serif; /* Set the font family for the navbar text */
-    padding: 0; /* Remove default body padding */
-    background-color: #000; /* Set the background color of the navbar to black */
-    position: fixed; /* Make the navbar fixed to the top */
-    width: 100%; /* Make the navbar span the entire width */
-    top: 0; /* Align the navbar to the top of the viewport */
-    left: 0; /* Align the navbar to the left of the viewport */
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    z-index: 200;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    padding: 0;
+}
+
+nav nav {
+    background-color: #000;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 nav ul {
-    list-style-type: none; /* Remove default list styles */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    overflow: hidden; /* Hide overflow content */
-    text-align: center; /* Center align the list items */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
 }
 
 nav li {
-    display: inline-block; /* Display the list items as inline-block for horizontal layout */
+    display: inline-block;
 }
 
 nav li a {
-    display: block; /* Make the links block-level elements */
-    color: white; /* Set the text color to white */
-    text-align: center; /* Center align the text */
-    padding: 14px 16px; /* Add padding to the links */
-    text-decoration: none; /* Remove underlines from the links */
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
 }
 
 nav li a:hover {
-    background-color: rgb(141, 201, 208); /* Change the background color on hover */
+    background-color: rgb(141, 201, 208);
 }
 
 nav li.selected a {
-    background-color: #555; /* Set the background color for the selected page */
+    background-color: #555;
+}
+
+/* Apply dark mode styles for navbar */
+body.dark-mode nav nav {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode nav li a {
+    color: #fff;
+}
+
+body.dark-mode nav li.selected a {
+    background-color: #555;
+}
+
+/* Apply light mode styles for navbar */
+body:not(.dark-mode) nav {
+    background-color: #000;
+}
+
+body:not(.dark-mode) nav li a {
+    color: #000;
+}
+
+body:not(.dark-mode) nav li.selected a {
+    background-color: #555;
 }

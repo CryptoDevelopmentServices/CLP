@@ -1,0 +1,84 @@
+/* updates.css */
+
+/* Add a specific class to the body to scope the styles */
+.timeline-container {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.timeline {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timeline-wrapper {
+    position: relative;
+    background-color: #fff; /* Light mode background color for timeline-wrapper */
+    color: #333; /* Light mode text color for timeline-wrapper */
+    
+}
+
+/* Apply dark mode styles for timeline-wrapper */
+body.dark-mode .timeline-wrapper {
+    background-color: #333; /* Dark mode background color for timeline-wrapper */
+    color: #fff; /* Dark mode text color for timeline-wrapper */
+}
+
+.update {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+/* Apply dark mode styles for updates */
+body.dark-mode .update {
+    background-color: #333; /* Dark mode background color */
+    color: #fff; /* Dark mode text color */
+    border-color: #555; /* Dark mode border color */
+}
+
+.update h2 {
+    margin-top: 0;
+}
+
+.date {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.left {
+    float: left;
+    clear: left;
+}
+
+.right {
+    float: right;
+    clear: right;
+}
+
+.info-card {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%; /* Center the card initially */
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid rgb(12, 12, 12);
+    padding: 20px;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: #333; /* Set the text color in dark mode */
+}
+
+/* Apply dark mode styles for info card */
+body.dark-mode .info-card {
+    background-color: rgb(12, 12, 12); /* Dark mode background color */
+    color: #fff; /* Dark mode text color */
+    border-color: #555; /* Dark mode border color */
+}
