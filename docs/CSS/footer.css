@@ -1,0 +1,20 @@
+/* footer.css */
+
+body {
+    margin: 0; /* Remove default body margin */
+    font-family: 'Arial', sans-serif; /* Set the font family for the footer text */
+}
+
+footer {
+    background-color: #000; /* Set the background color of the footer container to black */
+    color: white; /* Set the text color to white */
+    padding: 20px; /* Add padding to the footer container */
+    text-align: center; /* Center align the text in the footer container */
+    position: fixed; /* Make the footer container fixed to the bottom */
+    width: 100%; /* Make the footer container span the entire width */
+    bottom: 0; /* Align the footer container to the bottom of the viewport */
+    left: 0; /* Align the footer container to the left of the viewport */
+    height: 100px; /* Set a specific height for the footer */
+}
+
+/* Add any additional styling for links or other elements within the footer container if needed */
